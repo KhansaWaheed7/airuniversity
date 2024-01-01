@@ -1,0 +1,214 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: white; 
+    color: #0a2351;
+    padding: 0;
+    box-sizing: border-box;
+}
+header, footer {
+    border-bottom: 1px solid #ddd; /* You can adjust the color and thickness as needed */
+}
+
+/* Additional styling for footer */
+footer {
+    padding-top: 10px; /* Add some space at the top of the footer for better visual appeal */
+}
+header, nav, section, footer {
+    padding: 20px;
+}
+
+img {
+    
+    height: auto;
+    width: 100%;
+    
+}
+
+@media only screen and (max-width: 600px) {
+    header, nav, section, footer {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .box-1 {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+    }
+    th, td {
+        padding: 10px;
+    }
+}
+header {
+    color: #fff;
+    background: #0a2351;
+    padding: 1px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0a2351;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-button:hover {
+    background-color: #0a2351;
+}
+
+
+
+nav {
+    background: #0a2351;
+    padding: 1px;
+    text-align: center;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+    display: inline-block;
+}
+
+section {
+    background: white;
+    padding: 2em;
+    text-align: center;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+}
+.box-1{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box-2{
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Add this style for the contact table */
+.contact-table {
+    width: 100%;
+    border: #4682B4;
+    margin-top: 20px;
+}
+
+.contact-table th, .contact-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-table th {
+    background-color: #4682B4;
+    color: #fff;
+}
+.news-date {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.background-blue{
+    color: #fff;
+    background: #4682B4;
+    padding: 1px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+footer {
+    background:#0a2351;
+    padding: 1em;
+    text-align: center;
+    color: #fff;
+}
+/* Add this style for the events section */
+#events {
+    padding: 20px;
+    border-top: 2px solid #ddd;
+}
+
+.event {
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.event h3 {
+    color: #0a2351;
+}
+
+.event-date {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.event p {
+    color: black;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+#research {
+    position: relative;
+    background: rgba(0, 0, 0, 0.5) url('https://d39tfzr0b34y81.cloudfront.net/media/uni_profile_img/banner1.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    color: white; /* Set text color to white or any other color that suits your design */
+    text-align: start;
+    padding: 50px; /* Adjust padding as needed */
+}
+
+.background-blue {
+    background-color:#4682B4; /* Add a blue overlay to enhance text visibility */
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 10px; /* Optional: Add rounded corners to the blue overlay */
+}
+
+@media screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    header, nav, section, footer {
+        padding: 10px;
+    }
+
+    table, th, td {
+        padding: 10px;
+    }
+}
